@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./font.min.css?cd=123" />
+    <link rel="stylesheet" href="./style.min.css?cd=123" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="view-task">
+        <div class="edit-task">
+          <h4 class="title-text text-capitalize mb-2 text-center">edit task</h4>
+          <h4 class="para  text-center w-100" id="message2"></h4>
+
+          <div class="set d-flex flex-wrap align-content-between">
+            <div class="mb-3 d-flex taskid">
+              <p class="para id">Task ID:</p>
+              <p class="para ml-5" id="id"></p>
+            </div>
+            <div class="d-flex mb-3 task__field">
+              <div class="para name text-capitalize">name:</div>
+              <div class="d-block ml-3 mb-3">
+                <input
+                  type="text"
+                  placeholder=" name"
+                  class="pl-3 task_input"
+                  id="inputtask"
+                />
+              </div>
+            </div>
+            <div class="mb-3 div__checkbox">
+              <input
+                type="checkbox"
+                id="checkbox"
+                class="mb-3 checkbox__input"
+                value="true"
+              />
+              <label for="checkbox" class="checkbox__label para ml-2"
+                >completed</label
+              >
+            </div>
+            <div>
+              <button
+                class="text-capitalize para edit__button"
+                onclick="edit()"
+              >
+                edit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jquery -->
+    <script src="./jquery.3.4.1.js?cd=124"></script>
+
+    <!-- linking axios library -->
+    <script src="./axios.min.js"></script>
+    <!-- edit js -->
+    <script src="./edittask.js"></script>
+  </body>
+</html>

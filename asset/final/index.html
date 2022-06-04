@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./font.min.css?cd=1653235273382" />
+    <link rel="stylesheet" href="./style.min.css?cd=1653235273382" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="view">
+        <div class="task">
+          <h4 class="para text-center w-100" id="message"></h4>
+          <div class="">
+            <h4 class="title-text text-center text-capitalize">TASK MANAGER</h4>
+          </div>
+          <div class="field d-flex justify-content-center">
+            <input type="text" name="task" id="post" placeholder="eate" />
+            <button class="para text-capitalize" onclick="add()">submit</button>
+          </div>
+          <div class="box">
+            <h4
+              class="text-center para text-capitalize text-danger"
+              id="errorz"
+            ></h4>
+          </div>
+        </div>
+        <!-- task output -->
+
+        <!-- second task -->
+      </div>
+      <!-- another row -->
+
+      <div class="row justify-content-center" id="append"></div>
+    </div>
+    <h4
+      id="strong"
+      class="title-text text-center text-danger display-2 lead"
+    ></h4>
+  </body>
+
+  <!-- jquery -->
+  <script src="./jquery.3.4.1.js?cd=1653235273382"></script>
+
+  <!-- linking to new way of communication with thebackend -->
+  <script src="./axios.min.js"></script>
+  <!-- to your main.js file -->
+  <script src="./all.js"></script>
+</html>

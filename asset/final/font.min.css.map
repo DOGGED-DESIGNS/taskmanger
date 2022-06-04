@@ -1,0 +1,1 @@
+{"version":3,"sources":["font.scss"],"names":[],"mappings":"AAAA,WACE,oBAAA,CACA,0CAAA","file":"font.min.css","sourcesContent":["@font-face {\r\n  font-family: \"roboto\";\r\n  src: url(\"./fonts/Roboto/Roboto-Light.ttf\");\r\n}\r\n"]}
